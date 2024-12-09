@@ -87,6 +87,7 @@ Set your OpenAI API key to authenticate with OpenAI's API:
 ```env
 OPENAI_API_KEY=your_openai_api_key
 
+```
 ## Option 2:
 ```bash
 export OPENAI_API_KEY="your_openai_api_key"   # On Linux/Mac
