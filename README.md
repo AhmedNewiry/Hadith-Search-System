@@ -79,7 +79,15 @@ pip install langchain langchain-community openai faiss-cpu tiktoken pandas
 ### **4. Set OpenAI API Key**
 
 Set your OpenAI API key to authenticate with OpenAI's API:
+## Option 1: Using a `.env` File
 
+1. Create a `.env` file in the root directory of your project.
+2. Add the following:
+
+```env
+OPENAI_API_KEY=your_openai_api_key
+
+## Option 2:
 ```bash
 export OPENAI_API_KEY="your_openai_api_key"   # On Linux/Mac
 set OPENAI_API_KEY=your_openai_api_key        # On Windows
