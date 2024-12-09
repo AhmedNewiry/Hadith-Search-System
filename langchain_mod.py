@@ -2,8 +2,6 @@ import os
 import logging
 from dotenv import load_dotenv
 from langchain_community.vectorstores import FAISS
-
-
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.chains import RetrievalQA
 from langchain_community.llms import OpenAI

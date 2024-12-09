@@ -17,7 +17,7 @@ def preview_sql_file(file_path, lines=20):
 
 
 if __name__ == "__main__":
-    input_file = 'HadithTable.sql.gz'  # Update with your file
+    input_file = 'HadithTable.sql.gz'
     output_file = 'HadithTable.sql'
 
     extract_sql_file(input_file, output_file)
